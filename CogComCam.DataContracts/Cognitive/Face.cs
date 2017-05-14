@@ -9,6 +9,8 @@ namespace CogComCam.DataContracts.Cognitive
         public FaceLocation Location { get; set; }
     }
 
+    public class FaceEmotion { }
+
     public class FaceLocation
     {
         public int Bottom => Top + Height;
