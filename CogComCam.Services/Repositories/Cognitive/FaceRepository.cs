@@ -7,7 +7,7 @@ using Microsoft.ProjectOxford.Face;
 
 namespace CogComCam.Services.Repositories.Cognitive
 {
-    public class FaceRepository
+    public class FaceRepository : IFaceRepository
 
     {
         private readonly IFaceServiceClient _faceServiceClient;

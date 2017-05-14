@@ -5,7 +5,7 @@ using CogComCam.DataContracts.Cognitive;
 
 namespace CogComCam.Services.Repositories.Cognitive
 {
-    public class EmotionRepository
+    public class EmotionRepository : IEmotionRepository
     {
         public async Task<FaceEmotion> DetectEmotion(Stream imageStream, FaceLocation faceLocation)
         {
