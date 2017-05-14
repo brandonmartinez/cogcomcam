@@ -8,4 +8,8 @@
     <PackageReference Include="Microsoft.ProjectOxford.Face.DotNetStandard" Version="1.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CogComCam.DataContracts\CogComCam.DataContracts.csproj" />
+  </ItemGroup>
+
 </Project>

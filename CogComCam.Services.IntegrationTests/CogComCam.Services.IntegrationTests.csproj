@@ -126,6 +126,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\CogComCam.DataContracts\CogComCam.DataContracts.csproj">
+      <Project>{8F753FC1-F4B8-469A-8757-47DCD9DBF285}</Project>
+      <Name>CogComCam.DataContracts</Name>
+    </ProjectReference>
     <ProjectReference Include="..\CogComCam.Services\CogComCam.Services.csproj">
       <Project>{4bc6f420-3e61-476f-a0a7-c062402825cc}</Project>
       <Name>CogComCam.Services</Name>

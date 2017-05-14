@@ -28,6 +28,7 @@ namespace CogComCam.Services.IntegrationTests.Repositories.Cognitive
 
                 // Assert
                 Assert.IsNotNull(result);
+                Assert.AreEqual(1, result.Count);
             }
         }
     }
